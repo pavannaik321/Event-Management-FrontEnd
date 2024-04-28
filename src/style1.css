@@ -150,3 +150,28 @@ h2:hover {
     background-color: #ff90a2; /* Lighter pink color on hover */
   }
   
+
+
+  .my-2 {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 0.5rem;
+    border: 3px solid #ffabab;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  /* Optional: Add more specific styles as needed */
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    outline: none;
+    border-color: #007bff; /* Change border color on focus */
+  }

@@ -1,0 +1,152 @@
+*{
+    color: #ff93ac;
+    background: #fef5d6;
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+}
+  
+  /* .im-fell-english-regular-italic {
+    font-family: "IM Fell English", serif;
+    font-weight: 400;
+    font-style: italic;
+  } */
+
+.flex {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.card {
+    border: 1px solid #ff8e8e;
+    border-radius: 10px;
+    padding: 2px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(239, 239, 239, 0.1);
+}
+
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #00c798;
+}
+
+.card-content {
+    font-size: 16px;
+    color: #000000;
+}
+
+
+.Link {
+    background-color: #f6dcdc; 
+    width: 25%; 
+    margin: auto; 
+    margin-top: 0; 
+    display: flex; 
+    justify-content: center; 
+    color: #000000; 
+    text-decoration: none; 
+}
+
+.Link:hover {
+    background-color: #ff4fd6; 
+    color: #555; 
+}
+
+h2 {
+    font-size: 24px; 
+    color: #C3D6B1; 
+    margin-bottom: 10px; 
+}
+
+h2:hover {
+    color: #555; 
+}
+
+
+.venuedetailcontainer{
+    background: #000;
+    padding-left: 50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set the container height to 100% of the viewport height */
+    padding-left: 100px;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+
+
+.food_content {
+    width: 100%; 
+    max-width: 300px; 
+    border: 1px solid #ff7b7b; 
+    border-radius: 8px;
+    overflow: hidden; 
+    padding: 30px;
+    
+}
+
+.food_content img {
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 4/5; 
+}
+
+
+#foodh2{
+    padding-top: 40px;
+    color: #c284f9 ;
+    font-size: 25px;
+    align-items: center;
+    text-align: center;
+
+}
+
+
+.food_content {
+    display: flex; 
+    align-items: center;
+  }
+  
+  .food_content img {
+    max-width: 100%; 
+    margin-right: 20px; 
+  }
+  
+  .desc_content {
+    font-size: 16px; 
+    color: #333; 
+  }
+  
+  .rate {
+    font-size: 18px; 
+    color: #FF4500; 
+    margin-left: auto; 
+  }
+  
+
+  .button {
+    display: inline-block;
+    background-color: #FFD1DC; /* Pink background color */
+    color: #ffffff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+  }
+  
+  .button:hover {
+    background-color: #ff90a2; /* Lighter pink color on hover */
+  }
+  

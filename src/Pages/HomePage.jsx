@@ -1,8 +1,12 @@
-import React from "react";
+// import React from "react";
 import Card from "../components/Card";
-import Header from "../components/Header";
+// import Header from "../components/Header";
 import img from "../assets/m1.png";
-const HomePage = () => {
+
+import "../style1.css"; 
+
+
+function HomePage() {
     const details = {
         image: img,
         title: "JK Mahal",
@@ -15,9 +19,10 @@ const HomePage = () => {
             <div className="flex">
                 <Card venueDetails={details}></Card>
                 <Card venueDetails={details}></Card>
+                <Card venueDetails={details}></Card>
             </div>
         </>
     );
-};
+}
 
 export default HomePage;

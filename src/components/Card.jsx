@@ -1,5 +1,7 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
+
+import "../style1.css";
 
 const Card = ({ venueDetails }) => {
     return (
@@ -11,9 +13,9 @@ const Card = ({ venueDetails }) => {
                     className="border rounded-t-2xl "
                 />
                 <div className="flex justify-between my-1 px-1">
-                    <h1 className="">{venueDetails.title}</h1>
+                    <h1 className="venuedetailcontainer">{venueDetails.title}</h1>
                     <div className="flex">
-                        <h2>{venueDetails.capacity}</h2>
+                        <h2>{venueDetails.capacity}</h2><br/> 
                         <p>{venueDetails.price}</p>
                     </div>
                 </div>

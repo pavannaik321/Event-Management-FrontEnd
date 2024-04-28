@@ -4,6 +4,7 @@ import HomePage from "./Pages/HomePage";
 import Root from "./Pages/Root";
 import VenueDetailPage from "./Pages/VenueDetailPage";
 // import SignUp from "./AuthPages/SignUp.jsx";
+
 const router = createBrowserRouter([
     {
         path: "/",
@@ -13,6 +14,8 @@ const router = createBrowserRouter([
             { path: "/login", element: <Login /> },
             // { path: "/signup", element: <SignUp /> },
             { path: "/:id/venueDetail", element: <VenueDetailPage /> },
+            
+            
         ],
     },
 ]);
